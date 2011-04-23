@@ -27,13 +27,9 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.13'
+
+		plugins {
+			//<build ':resources:1.0-RC2-SNAPSHOT'
+		}
     }
 }
-
-grails.server.host="10.1.50.228"
-
-// Plugin repository
-grails.plugin.repos.discovery.myRepository="https://markus:kermit@83.169.2.186/svn/grails/plugins/"
-grails.plugin.repos.distribution.myRepository="https://markus:kermit@83.169.2.186/svn/grails/plugins/"
-
-grails.plugin.repos.resolveOrder=['myRepository', 'default', 'core'/*, 'myRepository'*/]
