@@ -2,15 +2,17 @@ class NineSixtyGridSystemGrailsPlugin {
     // the plugin version
     def version = "1.0"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "1.3.7 > *"
+    def grailsVersion = "1.3.6 > *"
     // the other plugins this plugin depends on
-    def dependsOn = [resources:'1.3.2.1 > *']
+    //def dependsOn = [resources:'1.0-RC2-SNAPSHOT > *']
+
+	//def loadAfter = ['resources']
+
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp"
     ]
 
-    // TODO Fill in these fields
     def author = "Markus Mueller"
     def authorEmail = ""
     def title = "960 Grid System CSS framework"
