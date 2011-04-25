@@ -1,8 +1,8 @@
 # 960 Grid System Plugin
 
 Provides the 960 Grid System CSS framework resource files from [http://960.gs/](http://960.gs/). The resources are
-declared inside the file 'NineSixtyGridSystemPluginResources.groovy', so you have to use the Resources Framework
-[http://grails.org/plugin/resources](http://grails.org/plugin/resources) to take advantage of this plugin.
+declared inside the file '/grails-app/conf/NineSixtyGridSystemPluginResources.groovy', so you have to use the Resources Framework
+([http://grails.org/plugin/resources](http://grails.org/plugin/resources)) to take advantage of this plugin.
 
 ## Installation
 
