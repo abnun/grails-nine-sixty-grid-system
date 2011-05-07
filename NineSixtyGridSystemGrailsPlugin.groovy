@@ -18,8 +18,10 @@ class NineSixtyGridSystemGrailsPlugin {
     def title = "960 Grid System CSS framework"
     def description = '''Provides the 960 Grid System CSS framework resource files from http://960.gs'''
 
-    // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/nine-sixty-grid-system"
+    def scm = [ url: "https://github.com/abnun/grails-nine-sixty-grid-system" ]
+
+	// URL to the plugin's documentation
+	def documentation = "https://github.com/abnun/grails-nine-sixty-grid-system"
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before 
